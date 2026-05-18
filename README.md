@@ -425,4 +425,4 @@ Public links and report storage
 
 # Infrastructure
 
-Remote browser execution and device services powered by [TestGrid](https://testgrid.io)
+Remote browser execution and device services powered by [TestGrid.io](https://testgrid.io)
