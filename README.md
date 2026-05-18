@@ -27,7 +27,7 @@ Current browser dashboard:
 - Firefox
 
 ---
-# 📸 Platform Preview
+# Platform Preview
 
 ## Home Screen
 
@@ -129,37 +129,6 @@ cross-browser-tool/
 
 ---
 
-# Environment Configuration
-
-Create:
-
-`.env`
-
-```env
-TG_TOKEN=YOUR_TOKEN
-
-CHROME_TG_URL=http://your-endpoint/wd/hub
-CHROME_TG_UDID=101
-```
-
----
-
-# Git Ignore
-
-```gitignore
-node_modules/
-.env
-screenshots/
-```
-
-Purpose:
-
-- protect credentials
-- avoid committing generated assets
-- reduce repository size
-
----
-
 # Running the Project
 
 Install dependencies:
@@ -211,36 +180,6 @@ http://localhost:3000
 
 ---
 
-# Error Handling
-
-Handled scenarios:
-
-URL validation:
-
-```text
-Invalid URL
-```
-
-Session failures:
-
-```text
-New session request timed out
-```
-
-Connection issues:
-
-```text
-502 Bad Gateway
-```
-
-PDF generation:
-
-```text
-PDF Error
-```
-
----
-
 # Future Enhancements
 
 ### Visual Comparison
@@ -269,6 +208,5 @@ Public links and report storage
 
 ---
 
-# Infrastructure
 
 Remote browser execution and device services powered by [TestGrid.io](https://testgrid.io)
